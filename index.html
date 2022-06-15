@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <main class="wrapper">
+        <div class="grid-container">
+            <div class="left">
+                <h2>Learn to code by watching others</h2>
+                <p>See how experienced developers solve problems in real-time.
+                    Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+            </div>
+
+            <div class="right">
+                <button class="top-btn"><strong>Try it free 7 days </strong>then $20/mo. thereafter</button>
+                <form action="#">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" pattern="[A-Za-z]{}"
+                        required minlength="4">
+
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name" pattern="[A-Za-z]{}"
+                        required minlength="4">
+
+                    <input id="email" name="email" type="email" placeholder="Email Address" required>
+
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+
+                    <button class="bottom-btn" type="submit" name="submit">CLAIM YOUR FREE TRIAL</button>
+                    <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
